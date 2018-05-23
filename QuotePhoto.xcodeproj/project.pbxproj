@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2742C4BD20B5DB1F00DC5883 /* QuoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2742C4BC20B5DB1F00DC5883 /* QuoteView.xib */; };
+		2742C4BF20B5E1F100DC5883 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742C4BE20B5E1F100DC5883 /* QuoteViewController.swift */; };
+		2742C4C120B6044D00DC5883 /* SuperQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2742C4C020B6044D00DC5883 /* SuperQuote.swift */; };
 		27B2ECEF20B5BAE700BE0B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2ECEE20B5BAE700BE0B03 /* AppDelegate.swift */; };
 		27B2ECF120B5BAE700BE0B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2ECF020B5BAE700BE0B03 /* ViewController.swift */; };
 		27B2ECF420B5BAE700BE0B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B2ECF220B5BAE700BE0B03 /* Main.storyboard */; };
 		27B2ECF620B5BAE800BE0B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B2ECF520B5BAE800BE0B03 /* Assets.xcassets */; };
 		27B2ECF920B5BAE800BE0B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B2ECF720B5BAE800BE0B03 /* LaunchScreen.storyboard */; };
+		27B2ED0320B5BCB300BE0B03 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2ED0220B5BCB300BE0B03 /* NetworkManager.swift */; };
+		27B2ED0520B5BCCF00BE0B03 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2ED0420B5BCCF00BE0B03 /* Quote.swift */; };
+		27B2ED0720B5D40300BE0B03 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B2ED0620B5D40300BE0B03 /* QuoteView.swift */; };
+		4297DB13D4CC54E712E022FC /* Pods_QuotePhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A69AC237879C9131AF50A8 /* Pods_QuotePhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15F847A4B10BE13845F48E38 /* Pods-QuotePhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotePhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuotePhoto/Pods-QuotePhoto.release.xcconfig"; sourceTree = "<group>"; };
+		2742C4BC20B5DB1F00DC5883 /* QuoteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuoteView.xib; sourceTree = "<group>"; };
+		2742C4BE20B5E1F100DC5883 /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		2742C4C020B6044D00DC5883 /* SuperQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperQuote.swift; sourceTree = "<group>"; };
 		27B2ECEB20B5BAE600BE0B03 /* QuotePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B2ECEE20B5BAE700BE0B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27B2ECF020B5BAE700BE0B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,11 @@
 		27B2ECF520B5BAE800BE0B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B2ECF820B5BAE800BE0B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B2ECFA20B5BAE800BE0B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B2ED0220B5BCB300BE0B03 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		27B2ED0420B5BCCF00BE0B03 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		27B2ED0620B5D40300BE0B03 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		7ABBBB2F3B42B49120FCA588 /* Pods-QuotePhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuotePhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuotePhoto/Pods-QuotePhoto.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A69AC237879C9131AF50A8 /* Pods_QuotePhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuotePhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4297DB13D4CC54E712E022FC /* Pods_QuotePhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		174449B454B5B7C7741D4C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9A69AC237879C9131AF50A8 /* Pods_QuotePhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		27B2ECE220B5BAE600BE0B03 = {
 			isa = PBXGroup;
 			children = (
 				27B2ECED20B5BAE600BE0B03 /* QuotePhoto */,
 				27B2ECEC20B5BAE600BE0B03 /* Products */,
+				FAF8935BE1DEDE239747FA00 /* Pods */,
+				174449B454B5B7C7741D4C61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,29 @@
 		27B2ECED20B5BAE600BE0B03 /* QuotePhoto */ = {
 			isa = PBXGroup;
 			children = (
+				27B2ED0220B5BCB300BE0B03 /* NetworkManager.swift */,
+				27B2ED0420B5BCCF00BE0B03 /* Quote.swift */,
 				27B2ECEE20B5BAE700BE0B03 /* AppDelegate.swift */,
 				27B2ECF020B5BAE700BE0B03 /* ViewController.swift */,
+				27B2ED0620B5D40300BE0B03 /* QuoteView.swift */,
+				2742C4C020B6044D00DC5883 /* SuperQuote.swift */,
+				2742C4BC20B5DB1F00DC5883 /* QuoteView.xib */,
 				27B2ECF220B5BAE700BE0B03 /* Main.storyboard */,
+				2742C4BE20B5E1F100DC5883 /* QuoteViewController.swift */,
 				27B2ECF520B5BAE800BE0B03 /* Assets.xcassets */,
 				27B2ECF720B5BAE800BE0B03 /* LaunchScreen.storyboard */,
 				27B2ECFA20B5BAE800BE0B03 /* Info.plist */,
 			);
 			path = QuotePhoto;
+			sourceTree = "<group>";
+		};
+		FAF8935BE1DEDE239747FA00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ABBBB2F3B42B49120FCA588 /* Pods-QuotePhoto.debug.xcconfig */,
+				15F847A4B10BE13845F48E38 /* Pods-QuotePhoto.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27B2ECFD20B5BAE800BE0B03 /* Build configuration list for PBXNativeTarget "QuotePhoto" */;
 			buildPhases = (
+				A063DF21C1143FD7817ABED7 /* [CP] Check Pods Manifest.lock */,
 				27B2ECE720B5BAE600BE0B03 /* Sources */,
 				27B2ECE820B5BAE600BE0B03 /* Frameworks */,
 				27B2ECE920B5BAE600BE0B03 /* Resources */,
+				BB84B681166077F239983064 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,17 +168,62 @@
 			files = (
 				27B2ECF920B5BAE800BE0B03 /* LaunchScreen.storyboard in Resources */,
 				27B2ECF620B5BAE800BE0B03 /* Assets.xcassets in Resources */,
+				2742C4BD20B5DB1F00DC5883 /* QuoteView.xib in Resources */,
 				27B2ECF420B5BAE700BE0B03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A063DF21C1143FD7817ABED7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuotePhoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB84B681166077F239983064 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QuotePhoto/Pods-QuotePhoto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuotePhoto/Pods-QuotePhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27B2ECE720B5BAE600BE0B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B2ED0520B5BCCF00BE0B03 /* Quote.swift in Sources */,
+				2742C4C120B6044D00DC5883 /* SuperQuote.swift in Sources */,
+				27B2ED0720B5D40300BE0B03 /* QuoteView.swift in Sources */,
+				27B2ED0320B5BCB300BE0B03 /* NetworkManager.swift in Sources */,
+				2742C4BF20B5E1F100DC5883 /* QuoteViewController.swift in Sources */,
 				27B2ECF120B5BAE700BE0B03 /* ViewController.swift in Sources */,
 				27B2ECEF20B5BAE700BE0B03 /* AppDelegate.swift in Sources */,
 			);
@@ -278,9 +367,11 @@
 		};
 		27B2ECFE20B5BAE800BE0B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABBBB2F3B42B49120FCA588 /* Pods-QuotePhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36N89YW4Y8;
 				INFOPLIST_FILE = QuotePhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,9 +386,11 @@
 		};
 		27B2ECFF20B5BAE800BE0B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F847A4B10BE13845F48E38 /* Pods-QuotePhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36N89YW4Y8;
 				INFOPLIST_FILE = QuotePhoto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
